@@ -1,6 +1,7 @@
 package com.tjreds.tjsoddities.block;
 
 import com.tjreds.tjsoddities.TJsOddities;
+import com.tjreds.tjsoddities.block.custom.SoundBlock;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -17,6 +18,11 @@ public class ModBlocks {
 
     public static final Block STAR_BLOCK = registerBlock("star_block", 
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
+    public static final Block SOUND_BLOCK = registerBlock("sound_block", 
+            new SoundBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+
+            
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

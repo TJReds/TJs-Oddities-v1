@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "item": "tjsoddities:star_block"
+        }
+    ],
+    "result": {
+        "item": "tjsoddities:star_shard",
+        "count": 4
+    }
+}

@@ -20,6 +20,11 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.STAR_SHARD)).entries((displayContext, entries) -> {
                         entries.add(ModItems.STAR_SHARD);
                         entries.add(ModBlocks.STAR_BLOCK);
+                        entries.add(ModBlocks.SOUND_BLOCK);
+                        entries.add(ModItems.TOMATO);
+                        entries.add(ModItems.COAL_BRIQUETTE);
+                        
+                        entries.add(ModItems.METAL_DETECTOR);
 
 
                     }).build());

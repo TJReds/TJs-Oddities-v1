@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "tjsoddities:item/star_pickaxe"
+    }
+}

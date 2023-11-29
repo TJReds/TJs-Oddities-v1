@@ -2,6 +2,19 @@
     "item.tjsoddities.star_shard": "Star Shard",
 
     "block.tjsoddities.star_block": "Star Block",
+    "block.tjsoddities.sound_block": "Sound Block",
 
-    "itemgroup.star_group": "Star Group"
+    "itemgroup.star_group": "Star Group",
+
+    "item.tjsoddities.star_sword": "Star Sword",
+    "item.tjsoddities.star_axe": "Star Axe",
+    "item.tjsoddities.star_pickaxe": "Star Pickaxe",
+    "item.tjsoddities.star_shovel": "Star Shovel",
+    "item.tjsoddities.star_hoe": "Star Hoe",
+    "item.tjsoddities.tomato": "Tomato",
+    "item.tjsoddities.coal_briquette": "Coal Briquette",
+    
+    "item.tjsoddities.metal_detector": "Metal Detector",
+
+    "tooltip.tjsoddities.tomato.tooltip": "This is a very tasty tomato!"
 }
