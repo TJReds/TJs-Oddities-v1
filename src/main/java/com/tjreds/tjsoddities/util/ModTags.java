@@ -3,7 +3,7 @@ package com.tjreds.tjsoddities.util;
 import com.tjreds.tjsoddities.TJsOddities;
 
 import net.minecraft.block.Block;
-import net.minecraft.item.Item;
+//import net.minecraft.item.Item;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
@@ -24,9 +24,9 @@ public class ModTags {
 
     public static class Items {
 
-        private static TagKey<Item> createTag(String name) {
-            return TagKey.of(RegistryKeys.ITEM, new Identifier(TJsOddities.MOD_ID, name));
-        }
+        // private static TagKey<Item> createTag(String name) {
+        //     return TagKey.of(RegistryKeys.ITEM, new Identifier(TJsOddities.MOD_ID, name));
+        // }
 
     }
     
